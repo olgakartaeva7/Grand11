@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+  <title>GranD — Премиальная недвижимость</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles.CSS">
+</head>
+<body>
+
+<nav class="navbar-custom">
+  <div class="container-nav">
+    <a href="#" class="navbar-brand">
+      <img src="logo1.jpg" alt="GranD Logo" class="logo-img">
+      <span class="brand-name">GranD</span>
+    </a>
+    <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+    <ul class="navbar-menu" id="navbarMenu">
+      <li><a href="#complex" class="nav-link">О комплексе</a></li>
+      <li><a href="#catalog" class="nav-link">Каталог</a></li>
+      <li><a href="#services" class="nav-link">Услуги</a></li>
+      <li><a href="#about" class="nav-link">О компании</a></li>
+      <li><a href="#blog" class="nav-link">Блог</a></li>
+      <li><a href="#documents" class="nav-link">Документы</a></li>
+      <li><a href="#reviews" class="nav-link">Отзывы</a></li>
+      <li><a href="#contacts" class="nav-link">Контакты</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section class="hero-section">
+  <div class="hero-image-wrapper">
+    <img src="w2.jpg" alt="Премиальная вилла" class="hero-image">
+  </div>
+  <div class="hero-overlay"></div>
+</section>
+
+<div class="content-wrapper">
+  
+  <!-- БЛОК: ПРЕЗЕНТАЦИЯ КОМПЛЕКСА -->
+  <section class="complex-section" id="complex">
+    <div class="container-content">
+      <h2 class="section-title">О комплексе GranD</h2>
+      <div class="complex-grid">
+        <div class="complex-image-wrapper">
+          <img src="K2.jpg" alt="Вид на комплекс GranD" class="complex-main-image">
+        </div>
+        <div class="complex-info">
+          <p class="complex-text">Жилой комплекс «GranD» — это не просто элитная недвижимость, а закрытый клубный проект, объединяющий людей, ценящих приватность, статус и безупречный сервис. Расположенный в экологически чистом районе с панорамным видом на акваторию, комплекс предлагает резидентам уникальную концепцию «дома как произведения искусства».</p>
+          <div class="complex-features">
+            <div class="feature-item">
+              <span class="feature-text">Эксклюзивная архитектура от мировых бюро</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-text">Закрытая охраняемая территория 2,5 га</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-text">Полная приватность и VIP-консьерж 24/7</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-text">Собственная инфраструктура: SPA, фитнес, ресторан</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Каталог -->
+  <section class="popular-section" id="catalog">
+    <div class="container-content">
+      <h2 class="section-title">Популярные объекты</h2>
+      <div class="cards-wrapper">
+        <div class="card-item-exact">
+          <div class="card-image-wrapper-exact">
+            <img src="p1.jpg" alt="Виллы с панорамными видами" class="card-image-exact">
+            <span class="card-badge-exact">Вид 360°</span>
+          </div>
+          <div class="card-content-exact">
+            <h3 class="card-title-exact">Виллы с панорамными видами</h3>
+            <p class="card-description-exact">Виллы с захватывающими панорамными видами на море, город или живописные природные объекты.</p>
+            <div class="card-bottom">
+              <p class="card-price-exact">от 350 000 000 ₽</p>
+              <a href="#contacts" class="card-btn-exact order-btn">Подробнее</a>
+            </div>
+          </div>
+        </div>
+        <div class="card-item-exact">
+          <div class="card-image-wrapper-exact">
+            <img src="p2.jpg" alt="Виллы у моря" class="card-image-exact">
+            <span class="card-badge-exact">Первая линия</span>
+          </div>
+          <div class="card-content-exact">
+            <h3 class="card-title-exact">Виллы у моря</h3>
+            <p class="card-description-exact">Эксклюзивные виллы, расположенные в первой линии у моря с собственным выходом к пляжу.</p>
+            <div class="card-bottom">
+              <p class="card-price-exact">от 270 000 000 ₽</p>
+              <a href="#contacts" class="card-btn-exact order-btn">Подробнее</a>
+            </div>
+          </div>
+        </div>
+        <div class="card-item-exact">
+          <div class="card-image-wrapper-exact">
+            <img src="p3.webp" alt="Виллы в престижных районах" class="card-image-exact">
+            <span class="card-badge-exact">Приватность</span>
+          </div>
+          <div class="card-content-exact">
+            <h3 class="card-title-exact">Виллы в престижных районах</h3>
+            <p class="card-description-exact">Уединённые резиденции с закрытой территорией, обеспечивающие полную конфиденциальность.</p>
+            <div class="card-bottom">
+              <p class="card-price-exact">от 420 000 000 ₽</p>
+              <a href="#contacts" class="card-btn-exact order-btn">Подробнее</a>
+            </div>
+          </div>
+        </div>
+        <div class="card-item-exact">
+          <div class="card-image-wrapper-exact">
+            <img src="p4.jpg" alt="Виллы с умным домом" class="card-image-exact">
+            <span class="card-badge-exact">Автоматизация</span>
+          </div>
+          <div class="card-content-exact">
+            <h3 class="card-title-exact">Виллы с умным домом</h3>
+            <p class="card-description-exact">Современные виллы с полной автоматизацией: управление освещением, климатом и безопасностью.</p>
+            <div class="card-bottom">
+              <p class="card-price-exact">от 310 000 000 ₽</p>
+              <a href="#contacts" class="card-btn-exact order-btn">Подробнее</a>
+            </div>
+          </div>
+        </div>
+        <div class="card-item-exact">
+          <div class="card-image-wrapper-exact">
+            <img src="p5.jpeg" alt="Виллы в центре города" class="card-image-exact">
+            <span class="card-badge-exact">Закрытая территория</span>
+          </div>
+          <div class="card-content-exact">
+            <h3 class="card-title-exact">Виллы в центре города</h3>
+            <p class="card-description-exact">Эксклюзивные виллы, расположенные в самом центре города с развитой инфраструктурой.</p>
+            <div class="card-bottom">
+              <p class="card-price-exact">от 325 000 000 ₽</p>
+              <a href="#contacts" class="card-btn-exact order-btn">Подробнее</a>
+            </div>
+          </div>
+        </div>
+        <div class="card-special-exact">
+          <div class="card-special-content">
+            <h3 class="card-special-title-exact">Не нашли подходящий вариант?</h3>
+            <p class="card-special-text-exact">Подберем объект индивидуально под ваши требования</p>
+            <a href="#contacts" class="card-btn-exact card-special-btn order-btn">Индивидуальный подбор</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Услуги -->
+  <section class="services-section" id="services">
+    <div class="container-content">
+      <h2 class="section-title">Услуги</h2>
+      <div class="services-wrapper-no-bg">
+        <div class="service-item-no-bg">
+          <h3 class="service-title-no-bg">Консьерж-сервис 24/7</h3>
+          <div class="service-image-wrapper-no-bg">
+            <img src="y1.png" alt="Консьерж-сервис" class="service-image-no-bg">
+          </div>
+        </div>
+        <div class="service-item-no-bg">
+          <h3 class="service-title-no-bg">Ландшафтный дизайн</h3>
+          <div class="service-image-wrapper-no-bg">
+            <img src="y2.png" alt="Ландшафтный дизайн" class="service-image-no-bg">
+          </div>
+        </div>
+        <div class="service-item-no-bg">
+          <h3 class="service-title-no-bg">Архитектурное проектирование</h3>
+          <div class="service-image-wrapper-no-bg">
+            <img src="y3.png" alt="Архитектурное проектирование" class="service-image-no-bg">
+          </div>
+        </div>
+        <div class="service-item-no-bg">
+          <h3 class="service-title-no-bg">Техническая поддержка умных систем</h3>
+          <div class="service-image-wrapper-no-bg">
+            <img src="y4.png" alt="Техническая поддержка" class="service-image-no-bg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- О компании -->
+  <section class="about-section" id="about">
+    <div class="container-content">
+      <h2 class="section-title">О компании</h2>
+      <div class="about-content-box">
+        <p class="about-text-large">Компания «GranD» основана группой архитекторов и инвестиционных экспертов, объединенных общей философией: жилье должно быть не просто квадратными метрами, а произведением искусства и надежным активом. Основатели, имея опыт работы с зарубежными девелоперами класса Luxury, заметили дефицит на российском рынке предложений, где безупречный сервис сочетался бы с передовыми технологиями и абсолютной приватностью.</p>
+        <p class="about-text-large mt-4">Сегодня «GranD» — это команда амбициозных профессионалов, которые создают не просто дома, а образ жизни. Мы предлагаем клиентам уникальные продукты: от вилл с панорамным остеклением до высокотехнологичных резиденций с полным управлением через смартфон.</p>
+      </div>
+      <div class="about-image-wrapper">
+        <img src="komanda.webp" alt="Офис GranD" class="about-image">
+      </div>
+    </div>
+  </section>
+
+  <!-- Блог -->
+  <section class="blog-section" id="blog">
+    <div class="blog-full-container">
+      <h2 class="section-title">Новости и блог компании</h2>
+      <div class="blog-main-wrapper">
+        <div class="blog-main-item">
+          <div class="blog-main-image-wrapper">
+            <img src="n1.webp" alt="Villa Azure" class="blog-main-image">
+          </div>
+          <div class="blog-main-content">
+            <h3 class="blog-main-title">Клиент приобрел виллу Villa Azure за 2.5 млн ₽</h3>
+            <p class="blog-main-text">Через 2 года стоимость объекта выросла до 3.1 млн ₽, плюс был получен доход от аренды 180 000 ₽.</p>
+            <p class="blog-main-text">Инвестиция в элитную недвижимость GranD принесла клиенту более 25% прибыли всего за 24 месяца.</p>
+          </div>
+        </div>
+        <div class="blog-main-item">
+          <div class="blog-main-image-wrapper">
+            <img src="n2.jpg" alt="Аналитика" class="blog-main-image">
+          </div>
+          <div class="blog-main-content">
+            <h3 class="blog-main-title">Аналитика для инвесторов</h3>
+            <p class="blog-main-text">По итогам 2024-2026 года рынок элитной недвижимости вырос на 15%. Виллы у моря и объекты с "умным" домом остаются самыми востребованными.</p>
+            <p class="blog-main-text">Эксперты прогнозируют дальнейший рост сегмента Luxury Real Estate на 10-12% ежегодно.</p>
+            <div class="growth-badge">+15% → 2024 → 2026</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Документы -->
+  <section class="documents-section" id="documents">
+    <div class="documents-full-container">
+      <h2 class="documents-title">Документы и сертификаты</h2>
+      <div class="certificates-wrapper">
+        <div class="certificate-item">
+          <img src="d1.jpg" alt="Сертификат" class="certificate-image">
+        </div>
+        <div class="certificate-item">
+          <img src="d2.jpg" alt="Лицензия" class="certificate-image">
+        </div>
+        <div class="certificate-item">
+          <img src="d3.webp" alt="Свидетельство" class="certificate-image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Отзывы -->
+  <section class="reviews-section" id="reviews">
+    <div class="container-content">
+      <h2 class="section-title">Отзывы клиентов</h2>
+      <div class="reviews-container">
+        <div class="swiper reviewsSwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="review-card">
+                <div class="review-header">
+                  <img src="o1.jpg" alt="Екатерина" class="review-avatar">
+                  <div class="review-client-info">
+                    <h4>Екатерина В.</h4>
+                    <p>Владелец бизнеса, Москва</p>
+                  </div>
+                </div>
+                <div class="review-text">GranD перевернул мое представление о жилье! Вилла у моря превзошла все ожидания: качество отделки, приватность и консьерж-сервис на высшем уровне. Спасибо команде за индивидуальный подход.</div>
+                <div class="review-object">
+                  Приобретенный объект: Вилла «Морская симфония»
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="review-card">
+                <div class="review-header">
+                  <img src="o2.jpg" alt="Артем" class="review-avatar">
+                  <div class="review-client-info">
+                    <h4>Артем К.</h4>
+                    <p>Топ-менеджер, Санкт-Петербург</p>
+                  </div>
+                </div>
+                <div class="review-text">Приобрели виллу с умным домом — это невероятный уровень комфорта. Автоматизация, безопасность, панорамные виды. GranD предоставили полную прозрачность и помощь с юридическими вопросами. Рекомендую!</div>
+                <div class="review-object">
+                  Приобретенный объект: Вилла «Техно Люкс»
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="review-card">
+                <div class="review-header">
+                  <img src="o3.jpg" alt="Михаил" class="review-avatar">
+                  <div class="review-client-info">
+                    <h4>Михаил и Ольга С.</h4>
+                    <p>Семейная пара, инвесторы</p>
+                  </div>
+                </div>
+                <div class="review-text">После долгих поисков нашли идеальный вариант в центре города. Закрытая территория, паркинг, рядом вся инфраструктура. GranD помогли с оформлением ипотеки от банка-партнера. Огромное спасибо!</div>
+                <div class="review-object">
+                  Приобретенный объект: Вилла «Центральный парк»
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="review-card">
+                <div class="review-header">
+                  <img src="o4.jpg" alt="Алина" class="review-avatar">
+                  <div class="review-client-info">
+                    <h4>Алина Д.</h4>
+                    <p>Телеведущая, знаменитость</p>
+                  </div>
+                </div>
+                <div class="review-text">Мне важна полная приватность и эстетика. Вилла в престижном районе от GranD — это идеальное сочетание. Понравилась работа брокеров, они учли все пожелания. Обязательно обращусь еще за управлением недвижимостью.</div>
+                <div class="review-object">
+                  Приобретенный объект: Резиденция «Highlands»
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Контакты -->
+  <section class="contact-section" id="contacts">
+    <div class="contact-full-container">
+      <h3 class="contact-title">Не знаете, с чего начать? Обратитесь к менеджеру GranD</h3>
+      <form class="contact-form">
+        <input type="text" placeholder="Имя" class="form-input" required>
+        <input type="tel" placeholder="Телефон" class="form-input" required>
+        <input type="email" placeholder="Email" class="form-input" required>
+        <button type="submit" class="form-submit">Оставить заявку</button>
+      </form>
+      <div class="contact-office">
+        <p class="contact-office-text">Приходите в офис GranD для детального разбора условий сделки</p>
+        <div class="contact-map-wrapper-small">
+          <img src="k16.jpg" alt="Карта" class="map-background-small">
+          <div class="contact-info-overlay-small">
+            <p class="contact-address-small">Москва, ул. Гранд-Люкс, 12, корпус 1</p>
+            <p class="contact-phone-small">+7 (908) 251-54-54</p>
+            <p class="contact-email-small">info@grand-luxury.ru</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<footer class="footer-full">
+  <div class="footer-content">
+    <span class="footer-brand-name">GranD</span>
+    <p style="margin-top: 20px; color: #999;">© 2026 GranD Development. Все права защищены.</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+</body> 
+</html>
